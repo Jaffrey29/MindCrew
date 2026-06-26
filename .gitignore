@@ -1,0 +1,76 @@
+# ====================
+# OS
+# ====================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ====================
+# IDE — JetBrains
+# ====================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VSCode
+.vscode/
+
+# ====================
+# Java / Maven
+# ====================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# ====================
+# Node / Frontend
+# ====================
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+!.env.*.example
+.env.local
+*.local
+
+# Runtime/user uploaded files
+uploads/
+MindCrew/MindCrew/uploads/
+
+# Vite
+vite.config.*.timestamp-*
+
+# ====================
+# Logs
+# ====================
+logs/
+*.log
+*.log.*
+
+# ====================
+# Temp files
+# ====================
+*.swp
+*.swo
+*~
+.tmp/
+temp/
+
+#前端忽略
+MindCrew/MindCrew/MindCrew-frontend/node_modules/
+MindCrew/MindCrew/MindCrew-frontend/dist/
+MindCrew/MindCrew/MindCrew-frontend/.vite/
+MindCrew/MindCrew/MindCrew-frontend/.cache/
